@@ -49,8 +49,8 @@ public class Player {
     }
 
     void Tsukasa(){
-        this.name[0] = "Captain";
-        this.name[1] = "Tsukasa";
+        this.name[0] = "Tsukasa";
+        this.name[1] = "Captain";
         this.health = 92;
         this.strength =6;
         this.skills = 8;
@@ -58,8 +58,8 @@ public class Player {
     }
 
     void Sathyan(){
-        this.name[0] = "Captain";
-        this.name[1] = "Sathyan";
+        this.name[0] = "Sathyan";
+        this.name[1] = "Captain";
         this.health = 95;
         this.strength = 9;
         this.skills = 8;

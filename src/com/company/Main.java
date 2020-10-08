@@ -13,10 +13,12 @@ public class Main {
 
 
         System.out.println(" CODE !  FOOTBALL");
-        System.out.println("> Press enter / return to start  <");
-        scan.next();
 
-        System.out.println("Select player: ");
+        sleep(5000);
+
+
+
+            System.out.println("Select player: ");
         System.out.println(" 1. Robin Shield \n 2. Captain Tsukasa \n 3. A P Sathyan ");
         choice= scan.nextInt();
 
@@ -25,7 +27,15 @@ public class Main {
             case 2 -> player.Tsukasa();
             case 3 -> player.Sathyan();
         }
-        Game.StartGame();
+        Game.StartGame(player);
 
+    }
+
+    static void sleep(int ms){
+        try {
+            Thread.sleep(ms);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 }
