@@ -40,29 +40,29 @@ public class Player {
     //SETTING PLAYER ATTRIBUTES WITH PLAYERS
 
     void Robin(){
-        this.name[0] = "Robin";
+        this.name[0] = "HOOD";
         this.name[1] = "Shield";
-        this.health = 88;
+        this.health = 123;
         this.strength = 5;
         this.skills = 6;
-        this.luckChance = 9;
+        this.luckChance = 10;
     }
 
     void Tsukasa(){
-        this.name[0] = "Tsukasa";
+        this.name[0] = "Tsukasa Andrew";
         this.name[1] = "Captain";
-        this.health = 92;
+        this.health = 89;
         this.strength =6;
         this.skills = 8;
         this.luckChance = 5;
     }
 
     void Sathyan(){
-        this.name[0] = "Sathyan";
+        this.name[0] = "Jacoca";
         this.name[1] = "Captain";
         this.health = 95;
-        this.strength = 9;
-        this.skills = 8;
+        this.strength = 2;
+        this.skills = 5;
         this.luckChance = 3;
     }
 
