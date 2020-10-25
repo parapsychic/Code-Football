@@ -12,14 +12,14 @@ public class Main {
         Player player = new Player();
 
 
-        System.out.println(" CODE !  FOOTBALL");
+        System.out.println(" CODE !  FOOTBALL GAME ");
 
         sleep(5000);
 
 
 
             System.out.println("Select player: ");
-        System.out.println(" 1. Robin Shield \n 2. Captain Tsukasa \n 3. A P Sathyan ");
+        System.out.println(" 1. Robin Shield \n 2. Captain Tsukasa \n 3.  A P Sathyan ");
         choice= scan.nextInt();
 
         switch (choice) {
