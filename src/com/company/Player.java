@@ -2,15 +2,15 @@ package com.company;
 
 public class Player {
 
-    public String[] name = new String[2]; // This is an array with each element being first name, middle name and last name
+    public String[] name = new String[2]; // This are arrays each element being first name, middle name and last name
     private int health, strength, skills, luckChance;
 
     // These are the worst way of doing this, but okay :)
 
     Player(){
-        health = 1;
-        strength = 1;
-        skills = 1;
+        health = 2;
+        strength = 2;
+        skills = 2;
         luckChance = 1;
     }
 
@@ -58,7 +58,7 @@ public class Player {
     }
 
     void Sathyan(){
-        this.name[0] = "Jacoca";
+        this.name[0] = "Jacocas";
         this.name[1] = "Captain";
         this.health = 95;
         this.strength = 2;
