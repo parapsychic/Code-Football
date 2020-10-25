@@ -13,9 +13,9 @@ public class Game {
 
         System.out.println("CODE ! FOOTBALL");
         sleep(5000);
-        System.out.println("He was born to play");
+        System.out.println("He was born to play football ");
         sleep(3000);
-        System.out.println("It's his entire life");
+        System.out.println("It's his entire life time");
         sleep(3000);
         System.out.println("His name is " + player.name[0]);
         sleep(3000);
